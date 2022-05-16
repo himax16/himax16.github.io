@@ -1,7 +1,7 @@
 ---
 title: "English Translation of ミラーチューン (Mirror Tune) - ZUTOMAYO"
 header:
-  overlay_image: /assets/posts/mirror-tune-background.png
+  image: /assets/posts/mirror-tune-background.png
 categories:
   - Blog
 tags:
@@ -9,10 +9,11 @@ tags:
 toc: true
 toc_sticky: true
 ---
-# Music Video (not available in the US)
+# Music
+# Youtube - Music Video (not available in the US)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BVvvUGP0MFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Music
+# Youtube Music
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SBb3VhkkwBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # English Lyrics
@@ -356,7 +357,7 @@ In the fifth part following the second refrain, the singer reiterates how is the
 
   Here the singer tries to ironically lighten up the depressing tones that the song is progress to.
 
-### Part six modified refrain
+### Modified Refrain
 - > 歌うぜ GACHIフォー・ユー
 
   **Lets sing SERIOUSLY for you.**
