@@ -10,13 +10,14 @@ toc: true
 toc_sticky: true
 ---
 # Music
-# Youtube - Music Video (not available in the US)
+## Youtube - Music Video (not available in the US)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BVvvUGP0MFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Youtube Music
+## Youtube Music
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SBb3VhkkwBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# English Lyrics
+# Lyrics
+## English Lyrics
 3,2,1 mirror tune~ mirror tune~ mirror tune~
 
 The knowledge to go compete\
@@ -82,7 +83,7 @@ Bothersome ☆ looks bad to give up\
 I still want to do the quarter-final yey\
 It won't be tainted! My heart that will not tremble
 
-# Japanese Lyrics
+## Japanese Lyrics
 3,2,1 mirror tune~ mirror tune~ mirror tune~
 
 抗い競り合い負けないよう\
