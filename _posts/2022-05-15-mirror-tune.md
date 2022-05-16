@@ -1,17 +1,18 @@
 ---
 title: "English Translation of ミラーチューン (Mirror Tune) - ZUTOMAYO"
 header:
-  overlay_image: /assets/posts/mirror-tune-background.jpg
+  overlay_image: /assets/posts/mirror-tune-background.png
 categories:
   - Blog
 tags:
   - Japanese
-excerpt: "This post should [...]"
+toc: true
+toc_sticky: true
 ---
-## Music Video (not available in the US)
+# Music Video (not available in the US)
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BVvvUGP0MFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Music
+# Music
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SBb3VhkkwBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # English Lyrics
@@ -192,7 +193,7 @@ In the fifth part following the second refrain, the singer reiterates how is the
 
   **When will my solo dominance start?**
 
-  独壇場 (doku-dan-jou) : field in which one acts unchallenged, unrivaled\ sphere of activity (unrivalled), one's monopoly​
+  独壇場 (doku-dan-jou) : field in which one acts unchallenged, unrivaled sphere of activity (unrivalled), one's monopoly​
 
   In this sentence, the protagonist is asking a rhetorical question when will he be able to dominate and triumph over the *competitors*. 「壇場」 (dan-jou) is a stage and highlights how he wants to be seen. However, the omittance of 場 (jou) part of the word indicates instead of actual physical place, he wants the stage to be more of the one in the heart.
 
