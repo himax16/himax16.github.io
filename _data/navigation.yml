@@ -2,8 +2,13 @@
 main:
   - title: "Profile"
     url: /profile/
+  - title: "Projects"
+    url: /projects/
   - title: "Blog"
     url: /blog/
+  - title: "Blog"
+    url: /blog/
+
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

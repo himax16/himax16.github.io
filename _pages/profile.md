@@ -6,11 +6,12 @@ author_profile: true
 redirect_from:
   - /resume
   - /cv
-toc: true
-toc_sticky: true
+classes: wide
 ---
 ## Personal Information
-* **Email**: hwinarto [at] (princeton[dot]edu OR pppl[dot]gov OR permiasnasional[dot]com)
+* **Email**:
+  * hwinarto [at] (princeton.edu **OR** pppl.gov **OR** permiasnasional.com)
+  * himawan.winarto [at] (gmail.com **OR** yahoo.co.id)
 * **Office**:
   * 025B Peyton Hall, Princeton University
   * S217 Princeton Plasma Physics Laboratory
@@ -26,8 +27,10 @@ toc_sticky: true
 
 ## Professional Experience
 * **Graduate Teaching Assistant**
-  * APC 523 (*Spring 2021, Spring 2022*): **Numerical Algorithms for Scientific Computing**
-  * APC 524 (*Fall 2021*): **Software Engineering for Scientific Computing**
+  * APC 523: **Numerical Algorithms for Scientific Computing**\
+    *Spring 2021, Spring 2022*
+  * APC 524: **Software Engineering for Scientific Computing**\
+    *Fall 2021*
 
 ## Achievements
 * Phi Beta Kappa Society (*2018*)
@@ -41,7 +44,8 @@ toc_sticky: true
 Demokrasi Indonesia–Perjuangan* (*2013*)
 
 ## Organizational Activity
-* **PERMIAS Nasional** (*Organization of the Indonesian Students in the United States*)
+* **PERMIAS Nasional**\
+  *Organization of the Indonesian Students in the United States*
   * **Co-Director** of Academic, Research, and Professional Development (*2021-now*)
   * **Co-Director** of Academic and Research (*2020-2021*)
 * **Princeton Program in Plasma Physics Graduate Student Committee**
