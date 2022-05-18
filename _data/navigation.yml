@@ -4,8 +4,8 @@ main:
     url: /profile/
   - title: "Projects"
     url: /projects/
-  - title: "Blog"
-    url: /blog/
+  - title: "Tutorials"
+    url: /tutorials/
   - title: "Blog"
     url: /blog/
 

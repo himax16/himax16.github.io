@@ -38,7 +38,7 @@ classes: wide
 * Kusaka Memorial Prize in Physics (*2016, 2017*)
 * Manfred Pyka memorial Prize in Physics (*2015*)
 * Absolute Winner in the 14th Asian Physics Olympiad (*2013*)\
-  *Gold Medal* and *Best Experimental Result* with highest combined score from both theoretical and experimental part
+  *Gold Medal*, *Best Experimental Result*, and highest combined score from both theoretical and experimental parts
 * Indonesian Ministry of State Enterprise Awards for Outstanding Achievements in Technology (*2013*)
 * Taruna Merah Putih Award for Prolific Youth in Education from *Partai
 Demokrasi Indonesia–Perjuangan* (*2013*)
