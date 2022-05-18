@@ -49,7 +49,7 @@ classes: wide
 * **60th APS DPP Annual Meeting** [Portland, OR, USA] (*2018*)\
   *Numerical Prediction of Magnetorotational Instability in Magnetized Taylor-Couette Flow with Conducting Endcaps*
 * **7th Asian Physics Symposium** [Bandung, Indonesia] (*2017*)\
-  *Progress on Magnetorotational Instability*
+  *Review of Progress in Magnetorotational Instability*
 
 ## Organizational Activity
 * **PERMIAS Nasional**\
