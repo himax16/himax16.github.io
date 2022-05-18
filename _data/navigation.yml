@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Profile"
-    url: /
+    url: /profile/
   - title: "Blog"
     url: /blog/
   # - title: "Sample Collections"
