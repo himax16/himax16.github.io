@@ -179,8 +179,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -218,7 +216,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -288,3 +286,12 @@ defaults:
       comments: true
       share: false
       related: false
+      toc: true
+      toc_sticky: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
