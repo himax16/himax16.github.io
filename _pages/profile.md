@@ -10,7 +10,7 @@ classes: wide
 ---
 ## Personal Information
 * **Email**:
-  * himawan.winarto [at] (gmail.com **OR** yahoo.co.id)
+  * himawan [at] winarto.net
   * hwinarto [at] (princeton.edu **OR** pppl.gov **OR** permiasnasional.com)
 * **Office**:
   * 025B Peyton Hall, Princeton University
@@ -28,12 +28,12 @@ classes: wide
 
 ## Professional and Teaching Experience
 * **Graduate Teaching Assistant**
-  * APC 523: **Numerical Algorithms for Scientific Computing** (*Spring 2021, Spring 2022*)
-  * APC 524: **Software Engineering for Scientific Computing** (*Fall 2021*)
+  * APC 523: *Numerical Algorithms for Scientific Computing* (*Spring 2021, Spring 2022*)
+  * APC 524: *Software Engineering for Scientific Computing* (*Fall 2021*)
 * **Undergraduate Teaching Assistant**
-  * **Laboratory assistant** for PHY 104: **General Physics II** (*Spring 2016*)
-  * **Grader** for PHY 101: **Introductory Physics I** (*Fall 2016*), PHY 102:  **Introductory Physics II** (*Spring 2017*), PHY 103: **General Physics I** (*Fall 2017*)
-* **Exchange Student** for **Princeton-University of Tokyo Exchange Program in Plasma Physics** (*Summer 2016, Summer 2017*)
+  * **Laboratory assistant** for PHY 104: *General Physics II* (*Spring 2016*)
+  * **Grader** for PHY 101: *Introductory Physics I* (*Fall 2016*), PHY 102:  *Introductory Physics II* (*Spring 2017*), PHY 103: *General Physics I* (*Fall 2017*)
+* **Exchange Student** for *Princeton-University of Tokyo Exchange Program in Plasma Physics* (*Summer 2016, Summer 2017*)
 * **Laboratory Assistant**  (*2015 - 2016*)\
   Prof. Michael Romalis group, Princeton University
 * **Physics Teacher**  (*2013-2014*)\
