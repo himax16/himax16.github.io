@@ -1,10 +1,13 @@
 ---
-title: Projects
-layout: collection
+title: "Projects"
+layout: single
 permalink: /projects/
-collection: projects
-entries_layout: grid
+redirect_from:
+  - /portofolio
+author_profile: true
 classes: wide
 ---
 
-Previous and currently public projects.
+# Current Projects
+
+# Past Projects
