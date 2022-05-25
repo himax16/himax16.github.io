@@ -8,6 +8,6 @@ author_profile: true
 classes: wide
 ---
 
-# Current Projects
+## Current Projects
 
-# Past Projects
+## Past Projects
