@@ -8,6 +8,7 @@ tags:
   - Japanese
 toc: true
 toc_sticky: true
+excerpt: "Personal translation and translation notes on the song nuances"
 ---
 # Music
 ## Youtube - Music Video (not available in the US)
