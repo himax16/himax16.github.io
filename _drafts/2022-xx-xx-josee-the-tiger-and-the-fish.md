@@ -1,7 +1,7 @@
 ---
 title: "Review of Josee, the Tiger and the Fish"
 header:
-  image: /assets/posts/mirror-tune-background.png
+  image: /assets/images/2022/06/josee-background.png
 categories:
   - Blog
 tags:
@@ -14,7 +14,7 @@ toc_sticky: true
 
 ## Review of the Animated Movie
 
-## Comparison to the Original Shor Story
+## Comparison to the Original Short Story
 In the original short story Josee and
 
 ## Comparison to Live Action Movie *Josée* (2020)
@@ -56,5 +56,6 @@ The story tells
 ### Men Hate Muffins
 
 ### Until It Snows
+>
 
 ## Final Words
