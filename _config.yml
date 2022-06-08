@@ -127,7 +127,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/himax16"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-google-scholar"
+      icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=F38I5OIAAAAJ"
 
 # Site Footer
@@ -152,7 +152,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/himax16"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-google-scholar"
+      icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=F38I5OIAAAAJ"
 
 # Reading Files
