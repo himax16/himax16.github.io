@@ -1,7 +1,7 @@
 ---
 title: "English Translation of ミラーチューン (Mirror Tune) - ZUTOMAYO"
 header:
-  image: /_media/images/2022/05/mirror-tune-background.png
+  image: /assets/images/2022/05/mirror-tune-background.png
 categories:
   - Blog
 tags:
