@@ -249,6 +249,12 @@ body:hover .visually-hidden button {
     color: $gitlab-color;
   }
 
+  .fa-google-scholar {
+    content: url('assets/images/google-scholar.svg');
+    height: 1em;
+    width: auto;
+  }
+
   .fa-instagram {
     color: $instagram-color;
   }
