@@ -1,7 +1,7 @@
 ---
 title: "Review of Josee, the Tiger and the Fish"
 header:
-  image: /assets/images/2022/06/josee-background.png
+  image: /assets/images/2022/06/josee-header.png
 categories:
   - Blog
 tags:
