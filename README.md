@@ -1,3 +1,3 @@
 # Hima's Personal Website
 
-Based on the current [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/).
+Repository for my [personal website](https://h.winarto.net/), built with [Astro](https://astro.build/) 🚀 and hosted on GitHub Pages.
