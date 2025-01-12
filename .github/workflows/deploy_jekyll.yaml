@@ -1,0 +1,91 @@
+name: Deploy Jekyll Site to GitHub Pages
+
+on:
+  # Allow manual triggering of this workflow
+  workflow_dispatch:
+  # Allow triggering of this workflow externally
+  repository_dispatch:
+    types: [deploy-jekyll]
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  setup:
+    name: Set up the target repository
+    runs-on: ubuntu-latest
+    # Need to also store it in the environment because the variable is not
+    #   refreshed between steps
+    outputs:
+      repo: ${{ steps.parse.outputs.repo }}
+    steps:
+        # Store the repository source to the repository variable
+      - name: Check out the repository
+        uses: actions/checkout@v4
+      - name: Set repository name and build type
+        id: parse
+        run: |
+          if [[ -n "${{ github.event.client_payload.repository }}" ]]; then
+            echo "repo=${{ github.event.client_payload.repository }}" >> \
+              $GITHUB_OUTPUT
+            gh variable set REPOSITORY_SOURCE --body \
+              "${{ github.event.client_payload.repository }}"
+          else
+            echo "No repository source specified"
+            if [[ -n "${{ vars.BUILD_TYPE }}" ]]; then
+              if [[ "${{ vars.BUILD_TYPE }}" != "jekyll" ]]; then
+                echo "Previous build type is not jekyll"
+                exit 1
+              fi
+            fi
+            echo "repo=${{ vars.REPOSITORY_SOURCE }}" >> $GITHUB_OUTPUT
+          fi
+          gh variable set BUILD_TYPE --body "jekyll"
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
+  build:
+    name: Build Jekyll site
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your site repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ needs.setup.outputs.repo }}
+          token: ${{ secrets.PAT }}
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v3
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
