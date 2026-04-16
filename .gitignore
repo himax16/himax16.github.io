@@ -1,0 +1,47 @@
+# build output
+dist/
+_site
+
+# generated types and caches
+.astro/
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+_asset_bundler_cache
+
+# dependencies
+node_modules/
+**/vendor/bundle
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.production
+
+# editor and IDE files
+*~
+*.sw[p_]
+*.sublime-project
+*.sublime-workspace
+.idea
+*.iml
+
+# package manager and Ruby artifacts
+*.gem
+.bundle
+Gemfile.lock
+package-lock.json
+bun.lockb
+yarn.lock
+
+# local tooling
+codekit-config.json
+.vercel
+
+# OS-specific files
+.DS_Store
