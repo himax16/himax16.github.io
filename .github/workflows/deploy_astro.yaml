@@ -1,7 +1,7 @@
 name: Deploy Astro Site to GitHub Pages
 
 on:
-  # Allow manual triggering of this workflow
+  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
   # Allow triggering of this workflow externally
   repository_dispatch:
@@ -29,7 +29,7 @@ jobs:
     steps:
         # Store the repository source to the repository variable
       - name: Check out the repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Set repository name and build type
         id: parse
         run: |
@@ -56,17 +56,20 @@ jobs:
     needs: setup
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your site repository
-        uses: actions/checkout@v4
+      - name: Checkout your repository using git
+        uses: actions/checkout@v6
         with:
           repository: ${{ needs.setup.outputs.repo }}
           token: ${{ secrets.PAT }}
       - name: Install, build, and upload your site
-        uses: withastro/action@v3
+        uses: withastro/action@v6
         # with:
           # path: . # The root location of your Astro project inside the repository. (optional)
-          # node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
+          # node-version: 24 # The specific version of Node that should be used to build your site. Defaults to 24. (optional)
           # package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
+          # build-cmd: pnpm run build # The command to run to build your site. Runs the package build script/task by default. (optional)
+        # env:
+          # PUBLIC_POKEAPI: 'https://pokeapi.co/api/v2' # Use single quotation marks for the variable value. (optional)
 
   deploy:
     name: Deploy to GitHub Pages
@@ -78,4 +81,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
